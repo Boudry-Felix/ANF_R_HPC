@@ -1,0 +1,18 @@
+[submodule "anf-rhpc-futureverse"]
+	path = anf-rhpc-futureverse
+	url = git@github.com:astamm/anf-rhpc-futureverse.git
+[submodule "ANFRCalculRmpi"]
+	path = ANFRCalculRmpi
+	url = git@github.com:GroupeCalcul/ANFRCalculRmpi.git
+[submodule "demo_snakemake"]
+	path = demo_snakemake
+	url = git@github.com:fchuffar/demo_snakemake.git
+[submodule "parallel-rcpp"]
+	path = parallel-rcpp
+	url = git@github.com:astamm/parallel-rcpp.git
+[submodule "r-gpu-rkeops"]
+	path = r-gpu-rkeops
+	url = https://plmlab.math.cnrs.fr/gdurif/r-gpu-rkeops.git
+[submodule "rcpp_hpc"]
+	path = rcpp_hpc
+	url = https://plmlab.math.cnrs.fr/formation1/rcpp_hpc.git
