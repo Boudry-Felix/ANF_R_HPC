@@ -1,10 +1,5 @@
 ---
 title: "ANF R for HPC"
-format: html
 ---
 
-## ANFR
-
-Rmpi:https://groupecalcul.github.io/ANFRCalculRmpi/
-Attention à la concurrence entre les processus, il faut bien choisir le nombre de processus pour ne pas saturer le réseau.
-    
+Placeholder
