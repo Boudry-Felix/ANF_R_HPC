@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "ANFR.html",
+    "href": "ANFR.html",
+    "title": "ANF R for HPC",
+    "section": "",
+    "text": "Rmpi:https://groupecalcul.github.io/ANFRCalculRmpi/ Attention à la concurrence entre les processus, il faut bien choisir le nombre de processus pour ne pas saturer le réseau."
+  },
+  {
+    "objectID": "ANFR.html#anfr",
+    "href": "ANFR.html#anfr",
+    "title": "ANF R for HPC",
+    "section": "",
+    "text": "Rmpi:https://groupecalcul.github.io/ANFRCalculRmpi/ Attention à la concurrence entre les processus, il faut bien choisir le nombre de processus pour ne pas saturer le réseau."
+  }
+]
