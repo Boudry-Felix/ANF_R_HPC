@@ -3,5 +3,39 @@ project:
   render: 
     - ANFR.qmd
 
+website: 
+  title: "ANF R for HPC"
+  repo-url: https://github.com/Boudry-Felix/ANF_R_HPC
+  repo-actions: [edit, source, issue]
+  navbar: 
+    right: 
+      - icon: github
+        href: https://github.com/Boudry-Felix/ANF_R_HPC
+  search: 
+    location: navbar
+    type: overlay
+
+format:
+   html:
+     toc: true
+     toc_depth: 3
+     other-links:
+       - text: Lab
+         href: https://espace-dev.fr
+       - text: email
+         href: mailto:felix.boudry@univ-perp.fr
+     code-fold: show
+     code-summary: "Show code"
+     code-tools:
+         source: true
+         toggle: true
+
+theme: 
+    dark: darkly
+    light: flatly
+
 execute: 
   freeze: auto
+
+author: "Félix Boudry"
+  
