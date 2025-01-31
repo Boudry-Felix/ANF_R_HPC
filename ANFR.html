@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -70,12 +70,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-df418981c34360f9120995b3f214f13a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-dec82d7d67ffaf4cc5ad31c049d979b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -171,7 +171,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Placeholder Publish test.</p>
+<p>This formation focused on creating and optimizing R scripts for High Performance Computing (HPC) environments.</p>
+<p>Several tools were presented and discussed:</p>
+<ul>
+<li><a href="https://github.com/GroupeCalcul/ANFRCalculRmpi/tree/5450db63710bad878e2d5155395b8a5b3f59e23b"><code>Rmpi</code></a> for parallel computing</li>
+<li><a href="https://github.com/astamm/anf-rhpc-futureverse/tree/8a261c69b97562bc539f9d7208c84c689e830d5c"><code>futureverse</code></a> for asynchronous programming</li>
+<li><a href="https://github.com/fchuffar/demo_snakemake/tree/5cc12182c39b998db7b5c17d91b2b93c91b891c2"><code>snakemake</code></a> for workflow management</li>
+<li><a href="https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/rcpp_hpc"><code>rcpp</code></a> for C++ integration and it’s <a href="https://github.com/astamm/parallel-rcpp/tree/9ce2c680b82d724e1c14b2c6c1fc94a8852ec519">parallelisable version</a></li>
+<li><a href="https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/r-gpu-rkeops"><code>rkeops</code></a> for GPU computing</li>
+</ul>
+<p>Almost all content can be found in the submodules of this repository.</p>
 
 
 <!-- -->
@@ -404,8 +413,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -567,7 +574,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -797,8 +803,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "ANF R for HPC"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Placeholder</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>Publish test.</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>This formation focused on creating and optimizing R scripts for High Performance Computing (HPC) environments.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Several tools were presented and discussed:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">`Rmpi`</span><span class="co">](https://github.com/GroupeCalcul/ANFRCalculRmpi/tree/5450db63710bad878e2d5155395b8a5b3f59e23b)</span> for parallel computing</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">`futureverse`</span><span class="co">](https://github.com/astamm/anf-rhpc-futureverse/tree/8a261c69b97562bc539f9d7208c84c689e830d5c)</span> for asynchronous programming</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">`snakemake`</span><span class="co">](https://github.com/fchuffar/demo_snakemake/tree/5cc12182c39b998db7b5c17d91b2b93c91b891c2)</span> for workflow management</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">`rcpp`</span><span class="co">](https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/rcpp_hpc)</span> for C++ integration and it's <span class="co">[</span><span class="ot">parallelisable version</span><span class="co">](https://github.com/astamm/parallel-rcpp/tree/9ce2c680b82d724e1c14b2c6c1fc94a8852ec519)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">`rkeops`</span><span class="co">](https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/r-gpu-rkeops)</span> for GPU computing</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>Almost all content can be found in the submodules of this repository.</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

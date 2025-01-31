@@ -4,6 +4,6 @@
     "href": "ANFR.html",
     "title": "ANF R for HPC",
     "section": "",
-    "text": "Placeholder Publish test."
+    "text": "This formation focused on creating and optimizing R scripts for High Performance Computing (HPC) environments.\nSeveral tools were presented and discussed:\n\nRmpi for parallel computing\nfutureverse for asynchronous programming\nsnakemake for workflow management\nrcpp for C++ integration and it’s parallelisable version\nrkeops for GPU computing\n\nAlmost all content can be found in the submodules of this repository."
   }
 ]
