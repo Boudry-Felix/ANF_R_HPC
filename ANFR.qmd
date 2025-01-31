@@ -2,5 +2,14 @@
 title: "ANF R for HPC"
 ---
 
-Placeholder
-Publish test.
+This formation focused on creating and optimizing R scripts for High Performance Computing (HPC) environments.
+
+Several tools were presented and discussed:
+
+- [`Rmpi`](https://github.com/GroupeCalcul/ANFRCalculRmpi/tree/5450db63710bad878e2d5155395b8a5b3f59e23b) for parallel computing
+- [`futureverse`](https://github.com/astamm/anf-rhpc-futureverse/tree/8a261c69b97562bc539f9d7208c84c689e830d5c) for asynchronous programming
+- [`snakemake`](https://github.com/fchuffar/demo_snakemake/tree/5cc12182c39b998db7b5c17d91b2b93c91b891c2) for workflow management
+- [`rcpp`](https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/rcpp_hpc) for C++ integration and it's [parallelisable version](https://github.com/astamm/parallel-rcpp/tree/9ce2c680b82d724e1c14b2c6c1fc94a8852ec519)
+- [`rkeops`](https://github.com/Boudry-Felix/ANF_R_HPC/blob/main/r-gpu-rkeops) for GPU computing
+
+Almost all content can be found in the submodules of this repository.
